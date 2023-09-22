@@ -3,22 +3,40 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <nav>
+  <ul className="nav-bar">
+    <li className="logo">
+      <a href="#">
+        <img src={logo} />
+      </a>
+    </li>
+    <input type="checkbox" id="check" />
+    <span className="menu">
+      <li>
+        <a href="">👤</a>
+      </li>
+      <li>
+        <a href="">🤙</a>
+      </li>
+      <li>
+        <a href="">☕</a>
+      </li>
+      <li>
+        <a href="">🏡</a>
+      </li>
+      <li>
+        <a href="">🎈</a>
+      </li>
+      <label htmlFor="check" className="close-menu">
+        X
+      </label>
+    </span>
+    <label htmlFor="check" className="open-menu">
+      MENOO
+    </label>
+  </ul>
+</nav>
+
   );
 }
 
