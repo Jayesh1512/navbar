@@ -13,19 +13,19 @@ function App() {
     <input type="checkbox" id="check" />
     <span className="menu">
       <li>
-        <a href="">👤</a>
+        <a href="">👤Hello</a>
       </li>
       <li>
-        <a href="">🤙</a>
+        <a href="">🤙Like</a>
       </li>
       <li>
-        <a href="">☕</a>
+        <a href="">☕Chai</a>
       </li>
       <li>
-        <a href="">🏡</a>
+        <a href="">🏡Ghai Jao</a>
       </li>
       <li>
-        <a href="">🎈</a>
+        <a href="">🎈Lollipop Lelo</a>
       </li>
       <label htmlFor="check" className="close-menu">
         X
