@@ -16,7 +16,7 @@ function App() {
         <a href="">👤Hello</a>
       </li>
       <li>
-        <a href="">🤙Like</a>
+        <a href="">🤙Like kro</a>
       </li>
       <li>
         <a href="">☕Chai</a>
@@ -35,8 +35,8 @@ function App() {
       MENOO
     </label>
   </ul>
+  <div>Hello</div>
 </nav>
-
   );
 }
 
